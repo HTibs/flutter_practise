@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 
 // main widgets for all other packges
 import 'pushNotificationsAutomated/mainForPushNotifications.dart';
+import 'flutter_tutorials_start/mainForflutterTutorilasStart.dart';
 import 'provider_example/MainForProvider.dart';
 
 void main() {
   // according to the required package to run change this MyApp()
   //runApp(MainForProvider());
-  runApp(MainForPushNotifications());
+  runApp(MainForFlutterTutorialsStart());
 }
 
 class MyApp extends StatelessWidget {
