@@ -4,11 +4,14 @@ import 'package:flutter/material.dart';
 import 'pushNotificationsAutomated/mainForPushNotifications.dart';
 import 'flutter_tutorials_start/mainForflutterTutorilasStart.dart';
 import 'provider_example/MainForProvider.dart';
+import 'filledStacks_provider_architecture/MainForFilledStacksProviderArchitecture.dart';
+import 'AmateurCoderGetXTutorial/MainForAmatuerCodetrGetXTutorial.dart';
+import 'AmateurCoderGetXTutorial/Tutorial2_stateManagement_inGETX/mainForGetXstateManagement.dart';
 
 void main() {
   // according to the required package to run change this MyApp()
   //runApp(MainForProvider());
-  runApp(MainForFlutterTutorialsStart());
+  runApp(mainForGetXstateManagement());
 }
 
 class MyApp extends StatelessWidget {
